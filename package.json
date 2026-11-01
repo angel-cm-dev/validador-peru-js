@@ -1,0 +1,41 @@
+{
+  "name": "validador-peru-js",
+  "version": "1.0.0",
+  "description": "Valida y formatea RUC, DNI, Carné de Extranjería, celulares y placas del Perú. ESM, tipado y sin dependencias.",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js"
+    }
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "example": "node examples/demo.js"
+  },
+  "keywords": [
+    "peru",
+    "ruc",
+    "dni",
+    "sunat",
+    "validacion",
+    "validator",
+    "placa",
+    "celular"
+  ],
+  "author": "Angel Castañeda Meza (https://github.com/angel-cm-dev)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angel-cm-dev/validador-peru-js.git"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "sideEffects": false
+}
